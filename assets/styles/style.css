@@ -1,0 +1,16 @@
+p {
+    /*color: red;
+    color: rgb(150, 0, 142);
+    color: rgba(150, 0, 142, 0.5);*/
+    color: #0000ff;
+    font-size: 32px;
+  }
+  #text {
+    color: red;
+  }
+  .text {
+    color: green;
+  }
+  .text2 {
+    color: purple;
+  }
