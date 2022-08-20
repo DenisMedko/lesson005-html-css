@@ -1,16 +1,50 @@
-p {
-    /*color: red;
-    color: rgb(150, 0, 142);
-    color: rgba(150, 0, 142, 0.5);*/
-    color: #0000ff;
-    font-size: 32px;
-  }
-  #text {
-    color: red;
-  }
-  .text {
-    color: green;
-  }
-  .text2 {
-    color: purple;
-  }
+html {
+    font-family: 'Roboto';
+}
+article {
+    font-size: 30px; 
+    background-color: #333333;
+    color: white; 
+    border: 20px solid green;
+    /*border-left: 30px dotted red;*/
+    /*padding: 30px 60px 90px 120px;*/
+    padding: 10px 30px 60px;
+    margin: 0 0 10px 0;
+    width: 600px;
+    height: 700px;
+    display: inline-block;
+}
+
+.article-text {
+    /*font-size: 30px;*/
+    line-height: 1.5;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: lowercase;
+    /*text-decoration-line: underline;
+    text-decoration-color: white;
+    text-decoration-style: wavy;*/
+    /*text-decoration: overline wavy white;*/
+    
+}
+
+.link {
+    /*font-size: initial;*/
+    /*color: inherit;*/
+    text-decoration: none;
+}
+
+.article-heading {
+    text-align: center;
+    border: inherit;
+}
+span {
+    font-size: 40px;
+    border: 5px solid red;
+    background-color: lightgray;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    /*height: 700px;*/
+    display: inline-block;
+}
